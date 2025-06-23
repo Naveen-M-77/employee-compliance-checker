@@ -1,0 +1,1 @@
+{"numerical_features": ["Age", "Years_of_Experience", "Attendance_Rate", "Performance_Score"], "boolean_features": ["Training_Completion", "Policy_Acknowledgment", "Security_Clearance"], "max_sequence_length": 20, "max_words": 100}

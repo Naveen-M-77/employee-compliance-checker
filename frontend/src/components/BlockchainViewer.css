@@ -1,0 +1,178 @@
+.blockchain-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blockchain-info {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.refresh-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.refresh-button:hover {
+  background-color: #1976d2;
+}
+
+.blockchain-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.blockchain-block {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.blockchain-block.expanded {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.block-header:hover {
+  background-color: #e0e0e0;
+}
+
+.block-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.expand-icon {
+  font-size: 16px;
+  color: #555;
+}
+
+.block-details {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.block-info {
+  margin-bottom: 20px;
+}
+
+.block-info p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.hash {
+  font-family: monospace;
+  background-color: #f5f5f5;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.prediction {
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.prediction.compliant {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.prediction.non-compliant {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.block-data {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.block-data h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.data-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+table td:first-child {
+  font-weight: 500;
+  width: 40%;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #555;
+}
+
+.error-container {
+  text-align: center;
+  padding: 30px;
+}
+
+.error-message {
+  color: #f44336;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+.error-container button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.error-container button:hover {
+  background-color: #1976d2;
+}

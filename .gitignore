@@ -1,0 +1,32 @@
+# Root
+*.pyc
+__pycache__/
+.env
+.DS_Store
+
+# Backend (FastAPI + ML)
+backend/__pycache__/
+backend/*.pyc
+backend/blockchain.json         # optional: ignore if generated at runtime
+backend/model.h5
+backend/tokenizer.json
+backend/scaler.pkl
+backend/.env
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Frontend (React - Vite or CRA)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Icon?
