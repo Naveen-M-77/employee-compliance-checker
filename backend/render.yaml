@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: compliance-backend
+    env: docker
+    repo: https://github.com/Naveen-M-77/employee-compliance-checker
+    region: oregon
+    branch: main
+    rootDir: backend
+    plan: free
+    autoDeploy: true
